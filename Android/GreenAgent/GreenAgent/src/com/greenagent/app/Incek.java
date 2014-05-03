@@ -21,6 +21,17 @@ public class Incek extends Activity {
 	          @Override
 	          public void onClick(View view) {
 	            //logout
+	        	  Button orderButton = (Button)findViewById(R.id.button1);
+
+	              orderButton.setOnClickListener(new View.OnClickListener() {
+
+	                @Override
+	                public void onClick(View view) {
+	                  Intent intent = new Intent(Incek.this, MainActivity.class);
+	                  startActivity(intent);
+	                }
+
+	              });
 	          }
 
 	        });
@@ -32,6 +43,17 @@ public class Incek extends Activity {
 	          @Override
 	          public void onClick(View view) {
 	            //viewdata
+	        	  Button orderButton = (Button)findViewById(R.id.Button01);
+
+	              orderButton.setOnClickListener(new View.OnClickListener() {
+
+	                @Override
+	                public void onClick(View view) {
+	                  Intent intent = new Intent(Incek.this, SensorDataView.class);
+	                  startActivity(intent);
+	                }
+
+	              });
 	          }
 
 	        });
@@ -43,6 +65,17 @@ public class Incek extends Activity {
 	          @Override
 	          public void onClick(View view) {
 	            //manageUsers
+	        	  Button orderButton = (Button)findViewById(R.id.Button02);
+
+	              orderButton.setOnClickListener(new View.OnClickListener() {
+
+	                @Override
+	                public void onClick(View view) {
+	                  Intent intent = new Intent(Incek.this, ManageUsers.class);
+	                  startActivity(intent);
+	                }
+
+	              });
 	          }
 
 	        });
@@ -54,6 +87,17 @@ public class Incek extends Activity {
 	          @Override
 	          public void onClick(View view) {
 	            //viewSettings
+	        	  Button orderButton = (Button)findViewById(R.id.Button03);
+
+	              orderButton.setOnClickListener(new View.OnClickListener() {
+
+	                @Override
+	                public void onClick(View view) {
+	                  Intent intent = new Intent(Incek.this, ViewSettings.class);
+	                  startActivity(intent);
+	                }
+
+	              });
 	          }
 
 	        });
@@ -65,6 +109,17 @@ public class Incek extends Activity {
 	          @Override
 	          public void onClick(View view) {
 	            //actuatorControls
+	        	  Button orderButton = (Button)findViewById(R.id.Button04);
+
+	              orderButton.setOnClickListener(new View.OnClickListener() {
+
+	                @Override
+	                public void onClick(View view) {
+	                  Intent intent = new Intent(Incek.this, ActuatorControls.class);
+	                  startActivity(intent);
+	                }
+
+	              });
 	          }
 
 	        });
@@ -76,6 +131,17 @@ public class Incek extends Activity {
 	          @Override
 	          public void onClick(View view) {
 	            //alerts
+	        	  Button orderButton = (Button)findViewById(R.id.Button05);
+
+	              orderButton.setOnClickListener(new View.OnClickListener() {
+
+	                @Override
+	                public void onClick(View view) {
+	                  Intent intent = new Intent(Incek.this, Alerts.class);
+	                  startActivity(intent);
+	                }
+
+	              });
 	          }
 
 	        });
@@ -87,6 +153,17 @@ public class Incek extends Activity {
 	          @Override
 	          public void onClick(View view) {
 	            //viewCamera
+	        	  Button orderButton = (Button)findViewById(R.id.Button06);
+
+	              orderButton.setOnClickListener(new View.OnClickListener() {
+
+	                @Override
+	                public void onClick(View view) {
+	                  Intent intent = new Intent(Incek.this, Camera.class);
+	                  startActivity(intent);
+	                }
+
+	              });
 	          }
 
 	        });

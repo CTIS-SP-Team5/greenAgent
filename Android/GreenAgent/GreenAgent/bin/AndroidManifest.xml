@@ -46,6 +46,30 @@
             android:name="com.greenagent.app.Camera"
             android:label="@string/title_activity_camera" >
         </activity>
+        <activity
+            android:name="com.greenagent.app.SensorDataView"
+            android:label="@string/title_activity_sensor_data_view" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.ExpandableListAdapter"
+            android:label="@string/title_activity_expandable_list_adapter" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.ManageUsers"
+            android:label="@string/title_activity_manage_users" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.ViewSettings"
+            android:label="@string/title_activity_view_settings" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.Alerts"
+            android:label="@string/title_activity_alerts" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.ActuatorControls"
+            android:label="@string/title_activity_actuator_controls" >
+        </activity>
     </application>
 
 </manifest>

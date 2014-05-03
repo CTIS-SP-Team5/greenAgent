@@ -2,6 +2,7 @@ package com.greenagent.app;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
@@ -20,6 +21,17 @@ public class Bilkent extends Activity {
 	          @Override
 	          public void onClick(View view) {
 	            //logout
+	        	  Button orderButton = (Button)findViewById(R.id.button1);
+
+	              orderButton.setOnClickListener(new View.OnClickListener() {
+
+	                @Override
+	                public void onClick(View view) {
+	                  Intent intent = new Intent(Bilkent.this, MainActivity.class);
+	                  startActivity(intent);
+	                }
+
+	              });
 	          }
 
 	        });
@@ -31,6 +43,17 @@ public class Bilkent extends Activity {
 	          @Override
 	          public void onClick(View view) {
 	            //viewdata
+	        	  Button orderButton = (Button)findViewById(R.id.Button01);
+
+	              orderButton.setOnClickListener(new View.OnClickListener() {
+
+	                @Override
+	                public void onClick(View view) {
+	                  Intent intent = new Intent(Bilkent.this, SensorDataView.class);
+	                  startActivity(intent);
+	                }
+
+	              });
 	          }
 
 	        });
@@ -42,6 +65,17 @@ public class Bilkent extends Activity {
 	          @Override
 	          public void onClick(View view) {
 	            //manageUsers
+	        	  Button orderButton = (Button)findViewById(R.id.Button02);
+
+	              orderButton.setOnClickListener(new View.OnClickListener() {
+
+	                @Override
+	                public void onClick(View view) {
+	                  Intent intent = new Intent(Bilkent.this, ManageUsers.class);
+	                  startActivity(intent);
+	                }
+
+	              });
 	          }
 
 	        });
@@ -53,6 +87,17 @@ public class Bilkent extends Activity {
 	          @Override
 	          public void onClick(View view) {
 	            //viewSettings
+	        	  Button orderButton = (Button)findViewById(R.id.Button03);
+
+	              orderButton.setOnClickListener(new View.OnClickListener() {
+
+	                @Override
+	                public void onClick(View view) {
+	                  Intent intent = new Intent(Bilkent.this, ViewSettings.class);
+	                  startActivity(intent);
+	                }
+
+	              });
 	          }
 
 	        });
@@ -64,6 +109,17 @@ public class Bilkent extends Activity {
 	          @Override
 	          public void onClick(View view) {
 	            //actuatorControls
+	        	  Button orderButton = (Button)findViewById(R.id.Button04);
+
+	              orderButton.setOnClickListener(new View.OnClickListener() {
+
+	                @Override
+	                public void onClick(View view) {
+	                  Intent intent = new Intent(Bilkent.this, ActuatorControls.class);
+	                  startActivity(intent);
+	                }
+
+	              });
 	          }
 
 	        });
@@ -75,6 +131,17 @@ public class Bilkent extends Activity {
 	          @Override
 	          public void onClick(View view) {
 	            //alerts
+	        	  Button orderButton = (Button)findViewById(R.id.Button05);
+
+	              orderButton.setOnClickListener(new View.OnClickListener() {
+
+	                @Override
+	                public void onClick(View view) {
+	                  Intent intent = new Intent(Bilkent.this, Alerts.class);
+	                  startActivity(intent);
+	                }
+
+	              });
 	          }
 
 	        });
@@ -86,6 +153,17 @@ public class Bilkent extends Activity {
 	          @Override
 	          public void onClick(View view) {
 	            //viewCamera
+	        	  Button orderButton = (Button)findViewById(R.id.Button06);
+
+	              orderButton.setOnClickListener(new View.OnClickListener() {
+
+	                @Override
+	                public void onClick(View view) {
+	                  Intent intent = new Intent(Bilkent.this, Camera.class);
+	                  startActivity(intent);
+	                }
+
+	              });
 	          }
 
 	        });
@@ -94,7 +172,7 @@ public class Bilkent extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.bilkent, menu);
+		getMenuInflater().inflate(R.menu.incek, menu);
 		return true;
 	}
 

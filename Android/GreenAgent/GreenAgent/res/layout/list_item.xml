@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:padding="5dp"
-     android:background="#626465" >
+     android:background="#DBFAF8" >
 
     <ImageView
         android:id="@+id/logo"

@@ -33,7 +33,7 @@ public class MobileArrayAdapter extends ArrayAdapter<String> {
 		ImageView imageView = (ImageView) rowView.findViewById(R.id.logo);
 
 		textView.setText(values[position]);
-		textView.setTextColor(Color.rgb(253, 105, 1));
+		textView.setTextColor(Color.rgb(72, 46, 33));
 
 		// Change icon based on name
 		String s = values[position];

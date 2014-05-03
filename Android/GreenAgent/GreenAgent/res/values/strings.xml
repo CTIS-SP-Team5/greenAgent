@@ -13,5 +13,11 @@
     <string name="title_activity_bilkent">Bilkent</string>
     <string name="title_activity_incek">Incek</string>
     <string name="title_activity_camera">Camera</string>
+    <string name="title_activity_sensor_data_view">SensorDataView</string>
+    <string name="title_activity_expandable_list_adapter">ExpandableListAdapter</string>
+    <string name="title_activity_manage_users">ManageUsers</string>
+    <string name="title_activity_view_settings">ViewSettings</string>
+    <string name="title_activity_alerts">Alerts</string>
+    <string name="title_activity_actuator_controls">ActuatorControls</string>
 
 </resources>
