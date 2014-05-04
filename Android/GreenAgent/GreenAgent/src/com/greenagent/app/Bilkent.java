@@ -159,8 +159,8 @@ public class Bilkent extends Activity {
 
 	                @Override
 	                public void onClick(View view) {
-	                  Intent intent = new Intent(Bilkent.this, Camera.class);
-	                  startActivity(intent);
+	                	Intent intent = getPackageManager().getLaunchIntentForPackage("object.p2pipcamddns.client");
+	                	startActivity(intent);
 	                }
 
 	              });
