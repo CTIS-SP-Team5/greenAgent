@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GreenAgent</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_welcomepage">MainActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_adapter">Adapter</string>
+    <string name="title_activity_mobile_array_adapter">MobileArrayAdapter</string>
+    <string name="title_activity_bilkent">Bilkent</string>
+    <string name="title_activity_incek">Incek</string>
+    <string name="title_activity_camera">Camera</string>
+    <string name="title_activity_sensor_data_view">SensorDataView</string>
+    <string name="title_activity_expandable_list_adapter">ExpandableListAdapter</string>
+    <string name="title_activity_manage_users">ManageUsers</string>
+    <string name="title_activity_view_settings">ViewSettings</string>
+    <string name="title_activity_alerts">Alerts</string>
+    <string name="title_activity_actuator_controls">ActuatorControls</string>
+    <string name="title_activity_sensor">SensorActivity</string>
+    <string name="title_activity_alert_adapter">AlertAdapter</string>
+    <string name="title_activity_actuator_adapter">ActuatorAdapter</string>
+    <string name="title_activity_actuator">ActuatorActivity</string>
+
+</resources>

@@ -5,4 +5,15 @@
 <fullyQualifiedTypeName name="android.view.View"/>
 <fullyQualifiedTypeName name="com.greenagent.app.WelcomepageActivity"/>
 <fullyQualifiedTypeName name="android.graphics.Color"/>
+<fullyQualifiedTypeName name="android.app.ListActivity"/>
+<fullyQualifiedTypeName name="com.greenagent.app.SensorActivity"/>
+<fullyQualifiedTypeName name="com.greenagent.app.R.style"/>
+<fullyQualifiedTypeName name="com.greenagent.app.R.layout"/>
+<fullyQualifiedTypeName name="com.greenagent.app.R.color"/>
+<fullyQualifiedTypeName name="com.greenagent.app.ActuatorActivity"/>
+<fullyQualifiedTypeName name="com.greenagent.app.R.id"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="android.widget.ToggleButton"/>
+<fullyQualifiedTypeName name="android.widget.CompoundButton"/>
+<fullyQualifiedTypeName name="com.greenagent.app.ViewSettingActivity"/>
 </qualifiedTypeNameHistroy>

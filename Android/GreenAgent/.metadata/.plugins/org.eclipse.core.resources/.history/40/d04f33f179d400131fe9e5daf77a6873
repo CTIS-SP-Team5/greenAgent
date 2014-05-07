@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.greenagent.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.greenagent.app.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.greenagent.app.WelcomepageActivity"
+            android:label="@string/title_activity_welcomepage" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.Adapter"
+            android:label="@string/title_activity_adapter" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.MobileArrayAdapter"
+            android:label="@string/title_activity_mobile_array_adapter" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.Bilkent"
+            android:label="@string/title_activity_bilkent" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.Incek"
+            android:label="@string/title_activity_incek" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.Camera"
+            android:label="@string/title_activity_camera" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.SensorDataView"
+            android:label="@string/title_activity_sensor_data_view" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.ExpandableListAdapter"
+            android:label="@string/title_activity_expandable_list_adapter" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.ManageUsers"
+            android:label="@string/title_activity_manage_users" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.ViewSettings"
+            android:label="@string/title_activity_view_settings" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.Alerts"
+            android:label="@string/title_activity_alerts" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.ActuatorControls"
+            android:label="@string/title_activity_actuator_controls" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.SensorActivity"
+            android:label="@string/title_activity_sensor" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.AlertAdapter"
+            android:label="@string/title_activity_alert_adapter" >
+        </activity>
+    </application>
+
+</manifest>

@@ -70,6 +70,34 @@
             android:name="com.greenagent.app.ActuatorControls"
             android:label="@string/title_activity_actuator_controls" >
         </activity>
+        <activity
+            android:name="com.greenagent.app.SensorActivity"
+            android:label="@string/title_activity_sensor" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.AlertAdapter"
+            android:label="@string/title_activity_alert_adapter" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.AlertsActivity"
+            android:label="@string/title_activity_alerts" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.ActuatorAdapter"
+            android:label="@string/title_activity_actuator_adapter" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.ActuatorActivity"
+            android:label="@string/title_activity_actuator" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.ViewSetingsAdapter"
+            android:label="@string/title_activity_view_setings_adapter" >
+        </activity>
+        <activity
+            android:name="com.greenagent.app.ViewSettingActivity"
+            android:label="@string/title_activity_view_setting" >
+        </activity>
     </application>
 
 </manifest>

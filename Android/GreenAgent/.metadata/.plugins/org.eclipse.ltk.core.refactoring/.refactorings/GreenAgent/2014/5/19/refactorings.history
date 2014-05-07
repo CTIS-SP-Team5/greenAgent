@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MobileArrayAdapter.java&apos; to &apos;GreenAgent/src/com.greenagent.app&apos;&#x0D;&#x0A;- Original project: &apos;GreenAgent&apos;&#x0D;&#x0A;- Destination element: &apos;GreenAgent/src/com.greenagent.app&apos;&#x0D;&#x0A;- Original element: &apos;com.greenagent.app.MobileArrayAdapter.java&apos;" description="Copy compilation unit" destination="/src&lt;com.greenagent.app" element1="/src&lt;com.greenagent.app{MobileArrayAdapter.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1399296732385" units="1" version="1.0"/>
+</session>

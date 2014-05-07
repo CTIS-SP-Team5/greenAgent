@@ -10,6 +10,12 @@ package com.greenagent.app;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int black=0x7f040001;
+        public static final int green=0x7f040002;
+        public static final int red=0x7f040003;
+        public static final int white=0x7f040000;
+    }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
 
@@ -17,80 +23,118 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
         public static final int logout=0x7f020001;
     }
     public static final class id {
-        public static final int Button01=0x7f080001;
-        public static final int Button02=0x7f080002;
-        public static final int Button03=0x7f080003;
-        public static final int Button04=0x7f080004;
-        public static final int Button05=0x7f080005;
-        public static final int Button06=0x7f080006;
-        public static final int LinearLayout1=0x7f08000c;
-        public static final int action_settings=0x7f080010;
-        public static final int button1=0x7f080000;
-        public static final int editText1=0x7f080008;
-        public static final int editText2=0x7f080007;
-        public static final int editText3=0x7f08000a;
-        public static final int editText4=0x7f080009;
-        public static final int label=0x7f08000e;
-        public static final int listview=0x7f08000f;
-        public static final int logo=0x7f08000d;
-        public static final int section_label=0x7f08000b;
+        public static final int Button01=0x7f090008;
+        public static final int Button02=0x7f090009;
+        public static final int Button03=0x7f09000a;
+        public static final int Button04=0x7f09000b;
+        public static final int Button05=0x7f09000c;
+        public static final int Button06=0x7f09000d;
+        public static final int Continious=0x7f090013;
+        public static final int Interval=0x7f090012;
+        public static final int LinearLayout1=0x7f09001f;
+        public static final int Seconds=0x7f090015;
+        public static final int TF=0x7f090014;
+        public static final int action_settings=0x7f090023;
+        public static final int button1=0x7f090007;
+        public static final int button2=0x7f09001b;
+        public static final int button3=0x7f09001a;
+        public static final int button4=0x7f09001c;
+        public static final int button5=0x7f09001d;
+        public static final int editText1=0x7f09000f;
+        public static final int editText2=0x7f09000e;
+        public static final int editText3=0x7f090011;
+        public static final int editText4=0x7f090010;
+        public static final int editText5=0x7f090018;
+        public static final int label=0x7f090021;
+        public static final int listview=0x7f090022;
+        public static final int logo=0x7f090020;
+        public static final int section_label=0x7f09001e;
+        public static final int spinner1=0x7f090019;
+        public static final int textView1=0x7f090001;
+        public static final int textView2=0x7f090000;
+        public static final int textView3=0x7f090003;
+        public static final int textView4=0x7f090004;
+        public static final int textView5=0x7f090005;
+        public static final int textView6=0x7f090006;
+        public static final int textView7=0x7f090016;
+        public static final int textView8=0x7f090017;
+        public static final int toggleButton1=0x7f090002;
     }
     public static final class layout {
-        public static final int activity_actuator_controls=0x7f030000;
-        public static final int activity_alerts=0x7f030001;
-        public static final int activity_bilkent=0x7f030002;
-        public static final int activity_camera=0x7f030003;
-        public static final int activity_incek=0x7f030004;
-        public static final int activity_main=0x7f030005;
-        public static final int activity_manage_users=0x7f030006;
-        public static final int activity_sensor_data_view=0x7f030007;
-        public static final int activity_view_settings=0x7f030008;
-        public static final int fragment_welcomepage_dummy=0x7f030009;
-        public static final int list_item=0x7f03000a;
-        public static final int welcomepage=0x7f03000b;
+        public static final int activity_actuator=0x7f030000;
+        public static final int activity_actuator_adapter=0x7f030001;
+        public static final int activity_actuator_controls=0x7f030002;
+        public static final int activity_alert=0x7f030003;
+        public static final int activity_alert_adapter=0x7f030004;
+        public static final int activity_alerts=0x7f030005;
+        public static final int activity_bilkent=0x7f030006;
+        public static final int activity_camera=0x7f030007;
+        public static final int activity_incek=0x7f030008;
+        public static final int activity_main=0x7f030009;
+        public static final int activity_manage_users=0x7f03000a;
+        public static final int activity_sensor=0x7f03000b;
+        public static final int activity_sensor_data_view=0x7f03000c;
+        public static final int activity_view_setings_adapter=0x7f03000d;
+        public static final int activity_view_setting=0x7f03000e;
+        public static final int activity_view_settings=0x7f03000f;
+        public static final int fragment_welcomepage_dummy=0x7f030010;
+        public static final int list_item=0x7f030011;
+        public static final int welcomepage=0x7f030012;
     }
     public static final class menu {
-        public static final int actuator_controls=0x7f070000;
-        public static final int adapter=0x7f070001;
-        public static final int alerts=0x7f070002;
-        public static final int bilkent=0x7f070003;
-        public static final int camera=0x7f070004;
-        public static final int expandable_list_adapter=0x7f070005;
-        public static final int incek=0x7f070006;
-        public static final int main=0x7f070007;
-        public static final int manage_users=0x7f070008;
-        public static final int mobile_array_adapter=0x7f070009;
-        public static final int sensor_data_view=0x7f07000a;
-        public static final int view_settings=0x7f07000b;
-        public static final int welcomepage=0x7f07000c;
+        public static final int actuator=0x7f080000;
+        public static final int actuator_adapter=0x7f080001;
+        public static final int actuator_controls=0x7f080002;
+        public static final int adapter=0x7f080003;
+        public static final int alert_adapter=0x7f080004;
+        public static final int alerts=0x7f080005;
+        public static final int bilkent=0x7f080006;
+        public static final int camera=0x7f080007;
+        public static final int expandable_list_adapter=0x7f080008;
+        public static final int incek=0x7f080009;
+        public static final int main=0x7f08000a;
+        public static final int manage_users=0x7f08000b;
+        public static final int mobile_array_adapter=0x7f08000c;
+        public static final int sensor=0x7f08000d;
+        public static final int sensor_data_view=0x7f08000e;
+        public static final int view_setings_adapter=0x7f08000f;
+        public static final int view_setting=0x7f080010;
+        public static final int view_settings=0x7f080011;
+        public static final int welcomepage=0x7f080012;
     }
     public static final class string {
-        public static final int action_settings=0x7f050001;
-        public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050002;
-        public static final int title_activity_actuator_controls=0x7f050011;
-        public static final int title_activity_adapter=0x7f050007;
-        public static final int title_activity_alerts=0x7f050010;
-        public static final int title_activity_bilkent=0x7f050009;
-        public static final int title_activity_camera=0x7f05000b;
-        public static final int title_activity_expandable_list_adapter=0x7f05000d;
-        public static final int title_activity_incek=0x7f05000a;
-        public static final int title_activity_manage_users=0x7f05000e;
-        public static final int title_activity_mobile_array_adapter=0x7f050008;
-        public static final int title_activity_sensor_data_view=0x7f05000c;
-        public static final int title_activity_view_settings=0x7f05000f;
-        public static final int title_activity_welcomepage=0x7f050003;
-        public static final int title_section1=0x7f050004;
-        public static final int title_section2=0x7f050005;
-        public static final int title_section3=0x7f050006;
+        public static final int action_settings=0x7f060001;
+        public static final int app_name=0x7f060000;
+        public static final int hello_world=0x7f060002;
+        public static final int title_activity_actuator=0x7f060015;
+        public static final int title_activity_actuator_adapter=0x7f060014;
+        public static final int title_activity_actuator_controls=0x7f060011;
+        public static final int title_activity_adapter=0x7f060007;
+        public static final int title_activity_alert_adapter=0x7f060013;
+        public static final int title_activity_alerts=0x7f060010;
+        public static final int title_activity_bilkent=0x7f060009;
+        public static final int title_activity_camera=0x7f06000b;
+        public static final int title_activity_expandable_list_adapter=0x7f06000d;
+        public static final int title_activity_incek=0x7f06000a;
+        public static final int title_activity_manage_users=0x7f06000e;
+        public static final int title_activity_mobile_array_adapter=0x7f060008;
+        public static final int title_activity_sensor=0x7f060012;
+        public static final int title_activity_sensor_data_view=0x7f06000c;
+        public static final int title_activity_view_setings_adapter=0x7f060016;
+        public static final int title_activity_view_setting=0x7f060017;
+        public static final int title_activity_view_settings=0x7f06000f;
+        public static final int title_activity_welcomepage=0x7f060003;
+        public static final int title_section1=0x7f060004;
+        public static final int title_section2=0x7f060005;
+        public static final int title_section3=0x7f060006;
     }
     public static final class style {
         /** 
@@ -114,10 +158,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }

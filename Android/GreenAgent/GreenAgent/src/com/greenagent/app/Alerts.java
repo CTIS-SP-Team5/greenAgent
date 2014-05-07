@@ -2,21 +2,53 @@ package com.greenagent.app;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.app.ListActivity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
+import android.view.Window;
+import android.widget.ListView;
 
-public class Alerts extends Activity {
+public class Alerts extends ListActivity {
 
+private String []  locations = {"Temperature Change", "Manual Actuator Operation", "System Start", "System Shutdown"};
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_alerts);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		
+		setListAdapter(new AlertAdapter(this, locations));
 	}
-
+	
 	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.alerts, menu);
-		return true;
+	protected void onListItemClick(ListView lv, View view, int position, long id) {
+		// Get the selected item and display it with Toast 
+		String selectedValue = (String) getListAdapter().getItem(position);
+		
+		if(selectedValue=="Temperature Change")
+		{
+			Intent intent = new Intent(this, AlertsActivity.class);
+			startActivity(intent);
+		}
+		else if(selectedValue=="Manual Actuator Operation")
+		{
+			Intent intent = new Intent(this, AlertsActivity.class);
+			startActivity(intent);
+		}
+		else if(selectedValue=="System Start")
+		{
+			Intent intent = new Intent(this, AlertsActivity.class);
+			startActivity(intent);
+		}
+		else if(selectedValue=="System Shutdown")
+		{
+			Intent intent = new Intent(this, AlertsActivity.class);
+			startActivity(intent);
+		}
+		
+	
 	}
 
 }

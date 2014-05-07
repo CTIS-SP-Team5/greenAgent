@@ -19,5 +19,11 @@
     <string name="title_activity_view_settings">ViewSettings</string>
     <string name="title_activity_alerts">Alerts</string>
     <string name="title_activity_actuator_controls">ActuatorControls</string>
+    <string name="title_activity_sensor">SensorActivity</string>
+    <string name="title_activity_alert_adapter">AlertAdapter</string>
+    <string name="title_activity_actuator_adapter">ActuatorAdapter</string>
+    <string name="title_activity_actuator">ActuatorActivity</string>
+    <string name="title_activity_view_setings_adapter">ViewSetingsAdapter</string>
+    <string name="title_activity_view_setting">ViewSettingActivity</string>
 
 </resources>
